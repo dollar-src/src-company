@@ -59,8 +59,7 @@ window.addEventListener('message', function(event) {
                 var array = string.split("avatarfull");
                 var array2 = array[1].toString().split('"');
                 profilePhoto = array2[2].toString();
-                console.log(eFunc.steam)
-                console.log(profilePhoto)
+
                $(".pfp").attr("src", profilePhoto);
             }
         }
@@ -83,7 +82,7 @@ $("#inputamount").change(function(){
      var totalfee = x / 100 * fee
      
      var totalfamount = x - totalfee
-     console.log(totalfee)
+
      if (money < x) {
         $(".reveiveamount").html ("0")
 
