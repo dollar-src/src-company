@@ -1,0 +1,341 @@
+
+
+
+@font-face {
+    font-family: gilroybold;
+    src: url(/html/fontawesome/css/Gilroy-Extrabold.ttf);
+  }
+
+
+
+body{
+
+    overflow:hidden;
+}
+
+
+.container {
+box-sizing: border-box;
+display: none;
+position: relative;
+width: 1920px;
+height: 1097px;
+
+}
+
+
+.MoneyUI {
+    
+    
+    position: absolute;
+width: 1500px;
+height: 750px;
+right: 210px;
+top: 100px;
+
+background-color: rgba(18, 15, 15, 1);
+}
+
+.HeaderText {
+    cursor:default;
+    position: absolute;
+width: 700px;
+height: 92px;
+left: 25px;
+top: 0;
+
+font-family: 'Bebas Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 124%;
+/* or 112px */
+
+
+color: #FFFFFF;
+
+mix-blend-mode: difference;
+text-shadow: 0px 4px 150px #FFFFFF;
+}
+
+.feeheader {
+    position: absolute;
+    width: 1000px;
+    height: 92px;
+    bottom: -20px;
+    left: 50px;
+    cursor:default;
+    text-align: left;
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 124%;    
+    color: #FFFFFF;
+    mix-blend-mode: difference;
+    text-shadow: 0px 4px 150px #FFFFFF;
+}
+.fee {
+    position: absolute;
+    width: 1000px;
+    height: 92px;
+    top:50p;
+    left: 140px;
+    cursor:default;
+    text-align: left;
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 124%;    
+    color: #FFFFFF;
+    mix-blend-mode: difference;
+    text-shadow: 0px 4px 150px #FFFFFF;
+}
+.FirstLastName {
+    position: absolute;
+    width: 1000px;
+    height: 92px;
+    left: 100px;
+    top: -55px;
+    cursor:default;
+    
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 124%;
+    /* or 112px */
+    
+    
+    color: #FFFFFF;
+    
+    mix-blend-mode: difference;
+    text-shadow: 0px 4px 150px #FFFFFF;
+}
+
+.CloseTab {
+    cursor:default;
+
+    position: absolute;
+width: 122px;
+height: 121px;
+left: 1378px;
+top: -70px;
+
+font-family: 'gilroybold';
+font-style: normal;
+font-weight: 900;
+font-size: 90px;
+line-height: 110px;
+
+background: radial-gradient(121.58% 121.58% at 50% 50%, #FFFFFF 0%, rgba(255, 255, 255, 0.182292) 81.77%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+text-shadow: 0px 4px 29px rgba(255, 255, 255, 0.55);
+}
+
+.profilecontainer {
+    overflow: hidden;
+    position: absolute;
+    border: 2px solid white;
+    height: 60px;
+    width: 60px;
+    left: 25px;
+    top: 20px;
+    background: radial-gradient(121.58% 121.58% at 50% 50%, #FFFFFF 0%, rgba(255, 255, 255, 0.182292) 81.77%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+    border-radius: 50px;
+}
+
+.profilecontainer img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    
+}
+
+.feeborder {
+
+
+    position: absolute;
+    width: 400px;
+    height: 155px;
+    right: 0;
+    top: 500px;
+    background-color: rgb(29, 27, 27);
+    transform: rotate(0);
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    
+    }
+
+    .button1 {
+        box-sizing: border-box;
+
+position: absolute;
+width: 424.61px;
+height: 71px;
+left: 0px;
+top: 435;
+
+background: radial-gradient(171.83% 450.15% at 50% -14.08%, rgba(223, 221, 219, 0.09) 0%, rgba(223, 221, 219, 0.09) 100%);
+border: 1px solid #f3f3f3;
+    }
+
+    .amounttext {
+        position: absolute;
+        width: 1000px;
+        height: 92px;
+        left: 20px;
+        bottom: -70px;
+        cursor:default;
+        font-family: 'Bebas Neue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 124%;
+        text-align: left;
+        color: #FFFFFF;
+        
+        mix-blend-mode: difference;
+        text-shadow: 0px 4px 150px #FFFFFF;
+    }
+
+    .button2 {
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 424.61px;
+        height: 71px;
+        left: 0px;
+        top: 535px;
+
+        background: radial-gradient(171.83% 450.15% at 50% -14.08%, rgba(223, 221, 219, 0.09) 0%, rgba(223, 221, 219, 0.09) 100%);
+        border: 1px solid #f3f3f3;
+    }
+
+    .receivetext {
+        position: absolute;
+        width: 1000px;
+        height: 92px;
+        left: 20px;
+        bottom: -70px;
+        cursor:default;
+        font-family: 'Bebas Neue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 124%;
+        text-align: left;
+        color: #FFFFFF;
+        
+        mix-blend-mode: difference;
+        text-shadow: 0px 4px 150px #FFFFFF;
+    }
+
+    .button3 {
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 424.61px;
+        height: 71px;
+        left: 0px;
+        top: 335px;
+        
+        background: radial-gradient(171.83% 450.15% at 50% -14.08%, rgba(223, 221, 219, 0.09) 0%, rgba(223, 221, 219, 0.09) 100%);
+        border: 1px solid #f3f3f3;
+    }
+
+
+    .button4 {
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 424.61px;
+        height: 71px;
+        left: 0;
+        top: 635px;
+        
+        background: radial-gradient(171.83% 450.15% at 50% -14.08%, rgba(223, 221, 219, 0.09) 0%, rgba(223, 221, 219, 0.09) 100%);
+        border: 1px solid #f3f3f3;
+    }
+
+    .buttontext {
+        position: absolute;
+        width: 1000px;
+        height: 92px;
+        left: 125px;
+        bottom: -85px;
+        cursor:default;
+        font-family: 'Bebas Neue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 124%;
+        text-align: left;
+        color: #FFFFFF;
+        mix-blend-mode: difference;
+        text-shadow: 0px 4px 150px #FFFFFF;
+    }
+    .reveiveamount {
+        position: absolute;
+        width: 1000px;
+        height: 92px;
+        left: 290px;
+        bottom: -70px;
+        cursor:default;
+        font-family: 'Bebas Neue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 124%;
+        text-align: left;
+        color: #FFFFFF;
+        mix-blend-mode: difference;
+        text-shadow: 0px 4px 150px #FFFFFF;
+    }
+
+    .blackamount {
+        position: absolute;
+        width: 1000px;
+        height: 92px;
+        left: 290px;
+        bottom: -70px;
+        cursor:default;
+        font-family: 'Bebas Neue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 124%;
+        text-align: left;
+        color: #FFFFFF;
+        mix-blend-mode: difference;
+        text-shadow: 0px 4px 150px #FFFFFF;
+    }
+    
+.inputamount {
+    outline-offset: 0px;
+    outline: none;
+position: absolute;
+width: 135px;
+height: 65px;
+bottom: 394px;
+left: 500px;
+-webkit-box-shadow: none;
+background-color: transparent;
+border: none;
+font-family: 'Bebas Neue';
+color: #FFFFFF;
+font-size: 30px;
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
